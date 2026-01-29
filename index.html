@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Nadia Bourouaha </title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__content">
+      <img class="avatar" src="" />
+      <div>
+        <h1>Nadia Bourouaha</h1>
+        <p class="subtitle">Étudiante en DEUST wemaster et métiers de l'Internet</p>
+
+        <div class="links">
+          <a href="mailto:n.bourouaha@outlook.fr">Email</a>
+          <a href="https://github.com/TONPSEUDO" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="travaux.html">Découvrir mes travaux</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section class="card">
+      <h2>Profil</h2>
+      <p>
+        Je suis étudiante en DEUST Webmaster et métiers de l'Internet à l'Université de Limoges. Je m’intéresse au domaine du web au sens large et particulièrement àla rédaction web et au référencement  Je cherche à développer mes compétences en
+        techniques .
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Compétences</h2>
+      <ul class="tags">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git/GitHub</li>
+        <li>Hébergement</li>
+        <li>WordPress</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Expériences / Projets</h2>
+      <ul>
+        <li><strong>Projet 1 :</strong> L'Art du Goût association </li>
+        <li><strong>Projet 2 :</strong> Négocible </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Formation</h2>
+      <ul>
+        <li>2026 – DEUST WEBMASTER – Université de Limoges</li>
+        <li>2001 – Baccalauréat STT – Lycée Frédéric Faÿs</li>
+      </ul>
+    </section>
+
+    <!-- API 1: GitHub -->
+    <section class="card">
+      <h2>Mon GitHub (API)</h2>
+      <p class="muted">Données récupérées via l’API publique GitHub.</p>
+      <div id="githubBox" class="apiBox">
+        <p>Chargement…</p>
+      </div>
+    </section>
+
+    <!-- API 2: Citation (sans clé) -->
+    <section class="card">
+      <h2>Citation du jour (API)</h2>
+      <p class="muted">Citation récupérée via une API publique.</p>
+      <div id="quoteBox" class="apiBox">
+        <p>Chargement…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nadia Bourouaha • <a href="travaux.html">Travaux</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
