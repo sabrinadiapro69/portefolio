@@ -1,115 +1,126 @@
-:root{
-  --bg:#0b1220;
-  --card:#111a2e;
-  --text:#e8eefc;
-  --muted:#a9b7db;
-  --accent:#58a6ff;
-  --border: rgba(255,255,255,.08);
+/* Style général */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: radial-gradient(1200px 600px at 20% 0%, rgba(88,166,255,.25), transparent 55%),
-              radial-gradient(800px 500px at 80% 10%, rgba(130,87,229,.22), transparent 55%),
-              var(--bg);
-  color:var(--text);
+/* Liens */
+a {
+  color: #0066cc;
+  text-decoration: none;
 }
 
-a{color:var(--accent); text-decoration:none}
-a:hover{text-decoration:underline}
-
-.container{max-width: 980px; margin: 0 auto; padding: 20px}
-
-.header{
-  border-bottom: 1px solid var(--border);
-  padding: 24px 0;
-}
-.header--small{padding:16px 0}
-
-.header__content{
-  display:flex;
-  gap:18px;
-  align-items:center;
+a:hover {
+  text-decoration: underline;
 }
 
-.avatar{
-  width:96px;
-  height:96px;
-  border-radius: 18px;
+/* Conteneur central */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* En-tête */
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Photo */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
   object-fit: cover;
-  border:1px solid var(--border);
+  border: 1px solid #ccc;
 }
 
-h1{margin:0 0 6px 0; font-size: 30px}
-.subtitle{margin:0; color:var(--muted)}
+/* Titres */
+h1 {
+  margin: 0;
+}
 
-.links{
+.subtitle {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Liens du header */
+.links {
   margin-top: 10px;
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
 }
 
-.btn{
-  display:inline-block;
-  padding:10px 12px;
-  border-radius: 12px;
-  border:1px solid var(--border);
-  background: rgba(255,255,255,.04);
+.links a {
+  margin-right: 10px;
 }
 
-.grid{
-  display:grid;
-  grid-template-columns: repeat(2, minmax(0,1fr));
-  gap:14px;
-  margin-top: 18px;
+/* Bouton */
+.btn {
+  padding: 6px 10px;
+  border: 1px solid #0066cc;
+  border-radius: 5px;
 }
 
-.card{
-  background: rgba(17,26,46,.9);
-  border:1px solid var(--border);
-  border-radius: 16px;
-  padding: 16px;
+/* Contenu principal */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.card h2{margin:0 0 10px 0; font-size:18px}
-.muted{color:var(--muted); margin-top:0}
-
-.tags{
-  list-style:none;
-  padding:0;
-  margin:0;
-  display:flex;
-  gap:8px;
-  flex-wrap:wrap;
+/* Cartes */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
 }
-.tags li{
-  padding:6px 10px;
-  border-radius:999px;
-  border:1px solid var(--border);
-  background: rgba(255,255,255,.03);
+
+/* Texte discret */
+.muted {
+  color: #777;
   font-size: 14px;
 }
 
-.apiBox{
-  border:1px dashed var(--border);
-  border-radius: 12px;
-  padding: 12px;
-  background: rgba(255,255,255,.02);
+/* Liste compétences */
+.tags {
+  list-style: none;
+  padding: 0;
 }
 
-.footer{
-  border-top: 1px solid var(--border);
-  margin-top: 24px;
-  padding: 16px 0;
-  color: var(--muted);
+.tags li {
+  background-color: #e6e6e6;
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+/* Boîtes API */
+.apiBox {
+  border: 1px dashed #aaa;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Pied de page */
+.footer {
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding: 15px 0;
+  text-align: center;
+  color: #666;
   font-size: 14px;
-}
-
-@media (max-width: 760px){
-  .grid{grid-template-columns: 1fr}
-  .header__content{align-items:flex-start}
-  .avatar{width:80px;height:80px}
 }
