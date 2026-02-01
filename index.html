@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio - Nadia Bourouaha </title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <title>Portfolio - Nadia Bourouaha</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
   <header class="header">
     <div class="container header__content">
-      <img class="avatar" src="assets/img/photo.jpg" alt="Photo professionnelle">
-" />
+      <img class="avatar" src="assets/img/photo.jpg" alt="Photo professionnelle" />
+
       <div>
         <h1>Nadia Bourouaha</h1>
         <p class="subtitle">Étudiante en DEUST webmaster et métiers de l'Internet</p>
@@ -28,8 +29,9 @@
     <section class="card">
       <h2>Profil</h2>
       <p>
-        Je suis étudiante en DEUST Webmaster et métiers de l'Internet à l'Université de Limoges. Je m’intéresse au domaine du web au sens large et particulièrement àla rédaction web et au référencement  Je cherche à développer mes compétences en
-        techniques .
+        Je suis étudiante en DEUST Webmaster et métiers de l'Internet à l'Université de Limoges.
+        Je m’intéresse au domaine du web, particulièrement à la rédaction web et au référencement.
+        Je cherche à développer mes compétences techniques.
       </p>
     </section>
 
@@ -47,8 +49,8 @@
     <section class="card">
       <h2>Expériences / Projets</h2>
       <ul>
-        <li><strong>Projet 1 :</strong> L'Art du Goût association </li>
-        <li><strong>Projet 2 :</strong> Négocible </li>
+        <li><strong>Projet 1 :</strong> L'Art du Goût association</li>
+        <li><strong>Projet 2 :</strong> Négocible</li>
       </ul>
     </section>
 
@@ -60,7 +62,6 @@
       </ul>
     </section>
 
-    <!-- API 1: GitHub -->
     <section class="card">
       <h2>Mon GitHub (API)</h2>
       <p class="muted">Données récupérées via l’API publique GitHub.</p>
@@ -69,7 +70,6 @@
       </div>
     </section>
 
-    <!-- API 2: Citation (sans clé) -->
     <section class="card">
       <h2>Citation du jour (API)</h2>
       <p class="muted">Citation récupérée via une API publique.</p>
@@ -84,6 +84,8 @@
       <p>© <span id="year"></span> Nadia Bourouaha • <a href="travaux.html">Travaux</a></p>
     </div>
   </footer>
-
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
