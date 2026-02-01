@@ -21,9 +21,7 @@ a {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   text-align: center;
 {
-.project-content {
-  text-align : center;
-}
+
 
 .photo-figure img {
   width: 100%;               /* occupe toute la largeur du cadre */
