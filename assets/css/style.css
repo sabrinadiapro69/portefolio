@@ -1,4 +1,3 @@
-/* Style général */
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -9,7 +8,7 @@ body {
 
 /* Liens */
 a {
-  color: #0066cc;
+  color: #c72c48;
   text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ h1 {
 /* Bouton */
 .btn {
   padding: 6px 10px;
-  border: 1px solid #0066cc;
+  border: 1px solid #c72c48;
   border-radius: 5px;
 }
 
@@ -82,7 +81,7 @@ h1 {
 
 /* Cartes */
 .card {
-  background-color: #ffffff;
+  background-color: #FFD1DV;
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 5px;
