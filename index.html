@@ -1,101 +1,232 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio - Nadia Bourouaha</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nadia Bourouaha, webdesigner WordPress | Portfolio</title>
+  <meta name="description" content="Webdesigner WordPress à Lyon et en télétravail. Je conçois des sites vitrines clairs et rapides pour les petites entreprises. Disponible en stage et en alternance.">
+  <meta name="author" content="Nadia Bourouaha">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nadia Bourouaha, webdesigner WordPress">
+  <meta property="og:description" content="Des sites qui font décoller les petites entreprises. Portfolio et études de cas.">
+  <meta property="og:image" content="assets/img/portrait.jpg">
+  <meta name="theme-color" content="#FBEAEE">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23C23B27'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-avion" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 21 4l-7.5 18-2.5-8-8-2.5Z"/><path d="m11 14 3.5-3.5"/></symbol>
+    <symbol id="i-plume" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-7 0-12 5-13 12l-2 4"/><path d="M7 16c5 0 9-3 10-8"/><path d="M11 12h5"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/><path d="m13.5 5-3 14"/></symbol>
+    <symbol id="i-boussole" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3"/></symbol>
+  </svg>
+
   <header class="header">
-    <div class="container header__content">
-      <img class="avatar" src="assets/img/photopro.jpeg" />
-
-      <div>
-        <h1>Nadia Bourouaha</h1>
-        <p class="subtitle">Étudiante en DEUST webmaster et métiers de l'Internet</p>
-
-        <div class="links">
-          <a href="mailto:n.bourouaha@outlook.fr">Me contacter</a>
-          <a href="https://github.com/sabrinadiapro69" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn" href="projets.html">Découvrir mes projets</a>
-        </div>
-      </div>
+    <div class="container">
+      <a class="logo" href="#top">Nadia Bourouaha</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#projets">Projets</a>
+        <a href="#itineraire">Itinéraire</a>
+        <a href="#competences">Compétences</a>
+        <a class="nav__cta" href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main class="container grid">
-    <section class="card">
-      <h2>Profil</h2>
-      <p>
-        Je suis étudiante en DEUST Webmaster et métiers de l'Internet à l'Université de Limoges.
-        Je m’intéresse au domaine du web, particulièrement à la rédaction web et au référencement.
-        Je cherche à développer mes compétences techniques.
-      </p>
+  <main id="contenu">
+    <section class="hero" id="top" aria-labelledby="titre-hero">
+      <div class="container">
+        <article class="billet">
+          <div class="billet__corps">
+            <p class="label">Carte d'embarquement</p>
+            <h1 id="titre-hero">Des sites qui font décoller <span class="accent">les petites entreprises.</span></h1>
+            <p class="lede">Webdesigner WordPress, je conçois des sites vitrines clairs, rapides et pensés pour inspirer confiance. Avant le web, plus de dix ans de relation client : je sais écouter un besoin et tenir un délai.</p>
+            <div class="actions">
+              <a class="btn btn--plein" href="#projets">Voir mes projets</a>
+              <a class="btn btn--contour" href="#contact">Me contacter</a>
+            </div>
+          </div>
+          <aside class="billet__talon" aria-label="Informations clés">
+            <div class="tampon" aria-hidden="true">Prête à<br>embarquer</div>
+            <dl>
+              <div class="mention"><dt>Passagère</dt><dd>Nadia Bourouaha</dd></div>
+              <div class="mention"><dt>Destination</dt><dd>Stage, alternance</dd></div>
+              <div class="mention"><dt>Zone</dt><dd>Lyon, télétravail</dd></div>
+              <div class="mention"><dt>Bagage</dt><dd>WordPress, Divi, HTML, CSS</dd></div>
+            </dl>
+          </aside>
+        </article>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Compétences</h2>
-      <ul class="tags">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git/GitHub</li>
-        <li>Hébergement</li>
-        <li>WordPress</li>
-      </ul>
+    <section class="section" id="projets" aria-labelledby="titre-projets">
+      <div class="container">
+        <div class="section__tete">
+          <p class="label">Ils ont décollé</p>
+          <h2 id="titre-projets">Deux projets, deux départs.</h2>
+          <p class="lede">Pour chaque site : le point de départ du client, ce que j'ai fait, et où il est arrivé.</p>
+        </div>
+
+        <div class="vols">
+          <article class="vol">
+            <div class="vol__visuel">
+              <div class="navigateur">
+                <div class="navigateur__barre" aria-hidden="true"><i></i><i></i><i></i><span>one-concept.fr</span></div>
+                <!-- Remplacer ce bloc par une capture : <img src="assets/img/projets/one-concept.webp" alt="Page d'accueil du site One-Concept" width="1280" height="800" loading="lazy"> -->
+                <div class="ecran ecran--blush"><div><strong>Ton entreprise, prête à décoller.</strong><small>One-Concept</small></div></div>
+              </div>
+            </div>
+            <div class="vol__infos">
+              <p class="vol__code"><span>Vol NB-01</span><span>Site de mon agence</span></p>
+              <h3>One-Concept, création d'activité clé en main</h3>
+              <dl class="trajet">
+                <div><dt>Départ</dt><dd>Une offre à rendre claire et rassurante pour des porteurs de projet hésitants</dd></div>
+                <svg aria-hidden="true"><use href="#i-avion"/></svg>
+                <div><dt>Arrivée</dt><dd>Un site qui vend, du premier écran jusqu'au paiement</dd></div>
+              </dl>
+              <p class="vol__role"><strong>Mon rôle :</strong> fondatrice. Concept, identité, rédaction, développement et mise en ligne.</p>
+              <ul class="puces">
+                <li>Concept de carte d'embarquement décliné en charte graphique complète</li>
+                <li>Formulaire de contact en PHP conforme au RGPD</li>
+                <li>Paiement en ligne Stripe, polices auto-hébergées</li>
+              </ul>
+              <ul class="tags" aria-label="Outils"><li>HTML</li><li>CSS</li><li>PHP</li><li>Stripe</li><li>Hostinger</li></ul>
+              <a class="vol__lien" href="https://one-concept.fr" target="_blank" rel="noopener">Visiter one-concept.fr</a>
+            </div>
+          </article>
+
+          <article class="vol">
+            <div class="vol__visuel">
+              <div class="navigateur">
+                <div class="navigateur__barre" aria-hidden="true"><i></i><i></i><i></i><span>artdugout.fr</span></div>
+                <!-- Remplacer ce bloc par une capture : <img src="assets/img/projets/artdugout.webp" alt="Page d'accueil du site L'Art du Goût" width="1280" height="800" loading="lazy"> -->
+                <div class="ecran ecran--creme"><div><strong>L'Art du Goût</strong><small>Association</small></div></div>
+              </div>
+            </div>
+            <div class="vol__infos">
+              <p class="vol__code"><span>Vol NB-02</span><span>Site associatif</span></p>
+              <h3>L'Art du Goût, ateliers parents-enfants</h3>
+              <dl class="trajet">
+                <div><dt>Départ</dt><dd>Des courts métrages à partager avec un public ciblé, sans les rendre publics</dd></div>
+                <svg aria-hidden="true"><use href="#i-avion"/></svg>
+                <div><dt>Arrivée</dt><dd>Un site qui diffuse les films dans un cadre maîtrisé</dd></div>
+              </dl>
+              <p class="vol__role"><strong>Mon rôle :</strong> présidente de l'association. Conception du site, réalisation et montage des films.</p>
+              <ul class="puces">
+                <li>Vidéos YouTube non répertoriées intégrées au site</li>
+                <li>Diffusion par QR code auprès du public visé</li>
+                <li>Navigation par ancres en CSS pour un parcours fluide</li>
+              </ul>
+              <ul class="tags" aria-label="Outils"><li>WordPress</li><li>Divi</li><li>Kdenlive</li><li>QR code</li></ul>
+              <a class="vol__lien" href="https://www.artdugout.fr" target="_blank" rel="noopener">Visiter artdugout.fr</a>
+            </div>
+          </article>
+
+          <!-- Modèle pour un nouveau projet (Négocible, etc.) : dupliquer un <article class="vol"> ci-dessus et remplir départ, arrivée, rôle, puces et outils. -->
+        </div>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Expériences / Projets</h2>
-      <ul>
-        <li>
-      <a href="https://www.artdugout.fr" target="_blank" rel="noreferrer">
-        <strong>Projet 1 :</strong> L'Art du Goût association
-      </a>
-    </li>
-        <li>
-      <a href="https://www.negocible.fr" target="_blank" rel="noreferrer">
-        <strong>Projet 2 :</strong> Négocible
-      </a>
-    </li>
-      </ul>
+    <div class="container"><div class="perforation" aria-hidden="true"></div></div>
+
+    <section class="section" id="itineraire" aria-labelledby="titre-itineraire">
+      <div class="container itineraire">
+        <figure class="portrait">
+          <img src="assets/img/portrait.jpg" alt="Portrait de Nadia Bourouaha" width="560" height="560" loading="lazy">
+          <figcaption><strong>Nadia Bourouaha</strong>Webdesigner WordPress</figcaption>
+        </figure>
+        <div>
+          <p class="label">L'itinéraire</p>
+          <h2 id="titre-itineraire">Une reconversion, pas un détour.</h2>
+          <p class="lede">J'ai passé plus de dix ans à traiter des dossiers contentieux. J'y ai appris ce qu'aucune formation ne remplace : comprendre un interlocuteur, négocier, respecter un cadre juridique et livrer à l'heure.</p>
+          <ol class="escales">
+            <li class="escale">
+              <span class="escale__type">Escale 1</span>
+              <h3>Gestion de dossiers contentieux</h3>
+              <p>Relation client sous tension, négociation, rigueur administrative et juridique. Une base solide pour gérer un projet web et ses interlocuteurs.</p>
+            </li>
+            <li class="escale">
+              <span class="escale__type">Escale 2</span>
+              <h3>Certification TOSA WordPress</h3>
+              <p>Quatre ans de pratique de WordPress, validés par une certification.</p>
+            </li>
+            <li class="escale">
+              <span class="escale__type">Escale 3</span>
+              <h3>DEUST Webmaster et métiers de l'Internet</h3>
+              <p>Université de Limoges, 2025 à 2027. Intégration, développement, référencement, hébergement et gestion de projet.</p>
+            </li>
+            <li class="escale escale--arrivee">
+              <span class="escale__type">Destination</span>
+              <h3>Fondatrice de One-Concept</h3>
+              <p>Une offre de création d'activité clé en main : nom, logo, site et nom de domaine.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Formation</h2>
-      <ul>
-        <li>2026 – DEUST WEBMASTER – Université de Limoges</li>
-        <li>2001 – Baccalauréat STT – Lycée Frédéric Faÿs</li>
-      </ul>
+    <section class="section section--dim" id="competences" aria-labelledby="titre-competences">
+      <div class="container">
+        <div class="section__tete">
+          <p class="label">Mon bagage</p>
+          <h2 id="titre-competences">Quatre essentiels, dans une seule valise.</h2>
+        </div>
+        <div class="bagage">
+          <div class="case">
+            <div class="pastille"><svg aria-hidden="true"><use href="#i-plume"/></svg></div>
+            <h3>Concevoir</h3>
+            <ul><li>Charte graphique</li><li>Maquettes et parcours</li><li>Identité de marque</li><li>Rédaction web</li></ul>
+          </div>
+          <div class="case">
+            <div class="pastille"><svg aria-hidden="true"><use href="#i-code"/></svg></div>
+            <h3>Développer</h3>
+            <ul><li>WordPress, Divi 5</li><li>HTML, CSS</li><li>JavaScript, API</li><li>PHP, formulaires</li></ul>
+          </div>
+          <div class="case">
+            <div class="pastille"><svg aria-hidden="true"><use href="#i-boussole"/></svg></div>
+            <h3>Mettre en ligne</h3>
+            <ul><li>Référencement naturel</li><li>Accessibilité</li><li>Conformité RGPD</li><li>Hébergement, Git, GitHub</li></ul>
+          </div>
+          <div class="case">
+            <div class="pastille"><svg aria-hidden="true"><use href="#i-camera"/></svg></div>
+            <h3>Raconter</h3>
+            <ul><li>Montage vidéo, Kdenlive</li><li>Visuels et vidéos par IA</li><li>Storyboard</li><li>Contenus réseaux sociaux</li></ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-  <section class="card">
-  <h2>Image du jour NASA (API)</h2>
-  <p class="muted">Données via l’API APOD (Astronomy Picture of the Day).</p>
-  <div id="nasaBox" class="apiBox">
-    <p>Chargement…</p>
-  </div>
-</section>
-
-    <section class="card">
-      <h2>Citation du jour (API)</h2>
-      <p class="muted">Citation récupérée via une API publique.</p>
-      <div id="quoteBox" class="apiBox">
-        <p>Chargement…</p>
+    <section class="embarquement" id="contact" aria-labelledby="titre-contact">
+      <div class="container grille">
+        <div>
+          <p class="label">Avant d'embarquer</p>
+          <h2 id="titre-contact">Un stage, une alternance, un projet ? Parlons-en.</h2>
+          <p class="lede">Je réponds sous 24 heures. Un échange de quinze minutes suffit pour voir si nous partons dans la même direction.</p>
+          <div class="actions">
+            <a class="btn btn--or" href="mailto:n.bourouaha@outlook.fr?subject=Prise%20de%20contact%20depuis%20votre%20portfolio">Proposer un échange</a>
+          </div>
+        </div>
+        <dl class="coordonnees">
+          <div><dt>Email</dt><dd><a href="mailto:n.bourouaha@outlook.fr">n.bourouaha@outlook.fr</a></dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/sabrinadiapro69" target="_blank" rel="noopener">github.com/sabrinadiapro69</a></dd></div>
+          <!-- <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/VOTRE-PROFIL" target="_blank" rel="noopener">linkedin.com/in/VOTRE-PROFIL</a></dd></div> -->
+          <div><dt>Agence</dt><dd><a href="https://one-concept.fr" target="_blank" rel="noopener">one-concept.fr</a></dd></div>
+        </dl>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>© <span id="year"></span> Nadia Bourouaha • <a href="projets.html">Mes travaux</a></p>
+      <span class="logo">Nadia Bourouaha</span>
+      <span>Site conçu et codé à la main, sans traceur ni cookie.</span>
     </div>
   </footer>
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-  <script src="assets/js/app.js"></script>
-  
 </body>
 </html>
