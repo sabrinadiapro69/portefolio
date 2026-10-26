@@ -126,6 +126,12 @@ h3 { font-size: 1.3rem; line-height: 1.3; }
 .ecran--bordeaux small { color: #E7C9A9; }
 .ecran--encre { background: var(--ink); color: var(--paper); }
 .ecran--encre small { color: var(--sable); }
+.ecran--film { background: var(--ink); color: var(--paper); text-decoration: none; }
+.ecran--film:hover { color: var(--paper); }
+.ecran--film small { color: var(--sable); }
+.lecture { display: grid; place-items: center; width: 56px; height: 56px; margin: 0 auto 16px; border-radius: 50%; border: 1.5px solid var(--sable); color: var(--paper); transition: background .2s, border-color .2s; }
+.lecture svg { width: 22px; height: 22px; margin-left: 3px; }
+.ecran--film:hover .lecture { background: var(--rose); border-color: var(--rose); }
 .ecran--creme { background: #F6EFE4; color: #3B2A1E; }
 .ecran--creme small { color: #8A5A3B; }
 
