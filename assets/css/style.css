@@ -122,6 +122,8 @@ h3 { font-size: 1.3rem; line-height: 1.3; }
 .ecran--marine small { color: #CDAE6A; }
 .ecran--blush { background: var(--blush); color: var(--ink); }
 .ecran--blush small { color: var(--blue); }
+.ecran--bordeaux { background: #6B1E23; color: #F8EDE6; }
+.ecran--bordeaux small { color: #E7C9A9; }
 .ecran--creme { background: #F6EFE4; color: #3B2A1E; }
 .ecran--creme small { color: #8A5A3B; }
 
