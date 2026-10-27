@@ -6,7 +6,7 @@ Site en ligne : https://sabrinadiapro69.github.io/portefolio/
 
 ## Ce que montre ce dépôt
 
-- Un site statique codé à la main, sans framework ni dépendance
+- Un site statique en HTML et CSS, sans framework ni dépendance
 - Une identité visuelle tirée de la charte graphique de mon agence One-Concept : billet d'embarquement, perforation, tampon
 - Des polices auto-hébergées en woff2 (Fraunces, Inter, IBM Plex Mono), sans appel à Google Fonts, pour la performance et le RGPD
 - Une mise en page responsive (ordinateur, tablette, mobile)
